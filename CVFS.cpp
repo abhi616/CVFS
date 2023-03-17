@@ -152,8 +152,7 @@ int CreateFile(char *name, int permission)
 	{
 		return -2;
 	}
-	
-	
+		
 	if(Get_Inode(name) != NULL)              // To check file name is already exist or not
 	{
 		return -3;
